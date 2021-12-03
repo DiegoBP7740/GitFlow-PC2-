@@ -1,9 +1,9 @@
 from ursina import *
-from ursina import texture
 
-cubo = Entity(model="Cube",texture="PRO.jpg",color="blue")
+app = Ursina()
 
+
+imagen_3d = Entity(model="cube",position=(0,0,0),texture="PRO.jpg")
 
 EditorCamera()
-
 app.run()
