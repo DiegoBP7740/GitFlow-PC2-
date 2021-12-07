@@ -1,4 +1,3 @@
-from _typeshed import HasFileno
 from ursina import *
 from Alex import Alex
 from color_dict import *
@@ -56,10 +55,8 @@ def menu2(character):
         hair = colors_dict[h]    
 
         #Character
-        if character == "Alex":
-
-            character_funtion = Alex(skin,mouth,eyes,hair)
-            print(character_funtion)
+        character_funtion = Alex(skin,mouth,eyes,hair)
+        print(character_funtion)
 
         
 
@@ -103,9 +100,7 @@ def menu2(character):
 
         #Funtion
 
-        if character == "Alex":
-
-            character_funtion = Alex(skin,mouth,eyes,hair)
-            print(character_funtion)
+        character_funtion = Alex(skin,mouth,eyes,hair)
+        print(character_funtion)
 
 print(menu2(Alex))
