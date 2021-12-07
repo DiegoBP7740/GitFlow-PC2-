@@ -14,6 +14,7 @@ colors_dict = {
     10:color.light_gray,
     11:color.magenta,
     12:color.pink
+    13:color.blue
 }
     
 
