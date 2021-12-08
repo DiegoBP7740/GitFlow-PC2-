@@ -1,5 +1,5 @@
 from ursina import *
-from Alex import Alex
+from Alex import *
 from color_dict import *
 
 def menu2(character):
@@ -8,6 +8,7 @@ def menu2(character):
     print("Choose your preference: ")
     print("[1] Defined Colors")
     print("[2] RGB Colors")
+    print("[3] Default Skin")
     print("")
     option2 = int(input("Send your preference: "))
 
@@ -55,13 +56,13 @@ def menu2(character):
         hair = colors_dict[h]    
 
         #Character
-        character_funtion = Alex(skin,mouth,eyes,hair)
-        print(character_funtion)
-
+        if character == "Alex":
+            character_funtion = Alex(skin,mouth,eyes,hair)            
+            print(character_funtion)
         
 
 
-    if option2 == 2:
+    elif option2 == 2:
 
         #RGB Colors
 
@@ -98,15 +99,14 @@ def menu2(character):
 
         hair = rgb(r,g,b)
 
-        #Funtion
-        
+        #Character
         if character == "Alex":
-          character_funtion = Alex(skin,mouth,eyes,hair)
-          print(character_funtion)
-          
-        elif charecter == "Steve":
-          character_funtion = Alex(skin,mouth,eyes,hair)
-          print(character_funtion)
-          
+            character_funtion = Alex(skin,mouth,eyes,hair)            
+            print(character_funtion)
 
-print(menu2(Alex))
+    elif option2 == 3:
+        if character == "Alex":
+            print(Alex_defalult())
+
+
+print(menu2("Alex"))
