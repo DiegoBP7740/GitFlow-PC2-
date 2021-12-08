@@ -99,8 +99,14 @@ def menu2(character):
         hair = rgb(r,g,b)
 
         #Funtion
-
-        character_funtion = Alex(skin,mouth,eyes,hair)
-        print(character_funtion)
+        
+        if character == "Alex":
+          character_funtion = Alex(skin,mouth,eyes,hair)
+          print(character_funtion)
+          
+        elif charecter == "Steve":
+          character_funtion = Alex(skin,mouth,eyes,hair)
+          print(character_funtion)
+          
 
 print(menu2(Alex))
