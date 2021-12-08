@@ -2,6 +2,7 @@ from ursina import *
 from Alex import *
 from Blaze import Blaze, Blaze_default
 from color_dict import *
+from Magma import *
 
 def menu3(character):
   
@@ -47,10 +48,16 @@ def menu3(character):
             character_funtion = Blaze(primary_color,secondary_color)          
             print(character_funtion)
 
-    
+        if character == "Magma":
+            character_funtion = Magma(primary_color,secondary_color)
+            print(character)
+
     elif option2 == 2:
+
         if character == "Blaze":
             print(Blaze_default())
 
+        elif character == "Magma":
+            print(Magma_default())
 
-print(menu3("Blaze"))
+print(menu3("Magma"))

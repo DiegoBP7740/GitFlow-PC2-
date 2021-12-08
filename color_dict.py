@@ -8,13 +8,13 @@ colors_dict = {
     4:color.orange,
     5:color.yellow,
     6:color.green,
-    7:color.brown,
-    8:color.gold,
-    9:color.dark_gray,
-    10:color.light_gray,
-    11:color.magenta,
-    12:color.pink
-    13:color.blue
+    7:color.blue,
+    8:color.brown,
+    9:color.gold,
+    10:color.dark_gray,
+    11:color.light_gray,
+    12:color.magenta,
+    13:color.pink
 }
     
 
