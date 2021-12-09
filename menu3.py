@@ -72,4 +72,4 @@ def menu3(character):
             print(Enderman_default())
 
         
-
+print(menu3("Enderman"))
