@@ -87,6 +87,8 @@ elif option == 13:
     print("")
     print(menu3("Squid"))
 
+else:
+    print(menu2("UTEC"))
 
 
 

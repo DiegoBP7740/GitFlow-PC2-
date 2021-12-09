@@ -81,6 +81,7 @@ def menu3(character):
         elif character == "Squid":
             character_funtion = Squid(primary_color,secondary_color)
             print(character)
+            
                             
     elif option2 == 2:
 
