@@ -1,11 +1,13 @@
 from ursina import *
-from Alex import *
-from Blaze import Blaze, Blaze_default
+from Blaze import *
 from color_dict import *
 from Magma import *
 from Blaze import *
 from Enderman import *
-
+from Cow import *
+from Sheep import *
+from Zombie import *
+from Creeper import *
 
 
 def menu3(character):
@@ -52,14 +54,30 @@ def menu3(character):
             character_funtion = Blaze(primary_color,secondary_color)          
             print(character_funtion)
 
-        if character == "Magma":
+        elif character == "Magma":
             character_funtion = Magma(primary_color,secondary_color)
             print(character)
         
-        if character == "Enderman":
+        elif character == "Enderman":
             character_funtion = Enderman(primary_color,secondary_color)
             print(character)
 
+        elif character == "Cow":
+            character_funtion = Cow(primary_color,secondary_color)
+            print(character)
+        
+        elif character == "Sheep":
+            character_funtion = Sheep(primary_color,secondary_color)
+            print(character)
+        
+        elif character == "Zombie":
+            character_funtion = Zombie(primary_color,secondary_color)
+            print(character)
+        
+        elif character == "Creeper":
+            character_funtion = Creeper(primary_color,secondary_color)
+            print(character)
+                        
     elif option2 == 2:
 
         if character == "Blaze":
@@ -71,5 +89,16 @@ def menu3(character):
         elif character == "Enderman":
             print(Enderman_default())
 
+        elif character == "Cow":
+            print(Cow_default())
         
-print(menu3("Enderman"))
+        elif character == "Sheep":
+            print(Sheep_default())
+        
+        elif character == "Zombie":
+            print(Zombie_default())
+        
+        elif character == "Creeper":
+            print(Creeper_default())
+                   
+print(menu3("Creeper"))
