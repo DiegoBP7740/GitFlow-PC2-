@@ -27,7 +27,7 @@ def creeper_default():
     #rostro de fondo
     
     for y in range(0,8):
-        b = Entity(model="cube",color =  ,position = (0,y,0))
+        b = Entity(model="cube",color =rgb(0, 187, 45),position = (0,y,0))
         b = Entity(model="cube", color=rgb(0, 187, 45), position=(7, y, 0))
     for y in range(0, 4):
         b = Entity(model="cube", color=rgb(0, 187, 45), position=(1, y, 0))
