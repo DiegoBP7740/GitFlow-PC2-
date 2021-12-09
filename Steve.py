@@ -1,5 +1,5 @@
 from ursina import *
-def Steve_predeterm():
+def Steve_default():
     app = Ursina()
     #rostro lado
     #color.red
