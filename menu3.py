@@ -4,6 +4,7 @@ from Blaze import Blaze, Blaze_default
 from color_dict import *
 from Magma import *
 from Blaze import *
+from Enderman import *
 
 
 
@@ -54,6 +55,10 @@ def menu3(character):
         if character == "Magma":
             character_funtion = Magma(primary_color,secondary_color)
             print(character)
+        
+        if character == "Enderman":
+            character_funtion = Enderman(primary_color,secondary_color)
+            print(character)
 
     elif option2 == 2:
 
@@ -62,6 +67,9 @@ def menu3(character):
 
         elif character == "Magma":
             print(Magma_default())
+            
+        elif character == "Enderman":
+            print(Enderman_default())
 
         
 
