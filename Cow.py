@@ -1,7 +1,7 @@
 
 from ursina import *
 
-def vaca_default():
+def Cow_default():
     app = Ursina()
     # 0 1 2 3 4 5 6 7 
 
@@ -79,11 +79,8 @@ def vaca_default():
     app.run()
 #color.red
 
-print(vaca_predeterm())
 
-
-
-def vaca(primary_color,secondary_color):
+def Cow(primary_color,secondary_color):
     app = Ursina()
     # 0 1 2 3 4 5 6 7 
     #color.red
