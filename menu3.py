@@ -3,6 +3,9 @@ from Alex import *
 from Blaze import Blaze, Blaze_default
 from color_dict import *
 from Magma import *
+from Blaze import *
+
+
 
 def menu3(character):
   
@@ -60,4 +63,5 @@ def menu3(character):
         elif character == "Magma":
             print(Magma_default())
 
-print(menu3("Magma"))
+        
+

@@ -1,6 +1,7 @@
 from ursina import *
 from Alex import *
 from color_dict import *
+from Alex import *
 
 def menu2(character):
   
@@ -20,13 +21,14 @@ def menu2(character):
         print("")
         print("Our Colors")
         print("")
-        print(f"[1] White       [7] Brown")
-        print(f"[2] Black       [8] Gold")
-        print(f"[3] Red         [9] Dark Gray")
-        print(f"[4] Orange      [10] Light Gray")
-        print(f"[5] Yellow      [11] Magenta")
-        print(f"[6] Green       [12] Pink")
-        print("")
+        print(f"[1] White       [8] Brown")
+        print(f"[2] Black       [9] Gold")
+        print(f"[3] Red         [10] Dark Gray")
+        print(f"[4] Orange      [11] Light Gray")
+        print(f"[5] Yellow      [12] Magenta")
+        print(f"[6] Green       [13] Pink")
+        print(f"[7] Blue")
+        print("") 
         
         print("Skin")
         
@@ -109,4 +111,3 @@ def menu2(character):
             print(Alex_defalult())
 
 
-print(menu2("Alex"))
