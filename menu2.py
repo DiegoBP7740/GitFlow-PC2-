@@ -1,5 +1,6 @@
 from ursina import *
 from Alex import *
+from Steve import Steve, Steve_default
 from color_dict import *
 from Alex import *
 
@@ -105,9 +106,19 @@ def menu2(character):
         if character == "Alex":
             character_funtion = Alex(skin,mouth,eyes,hair)            
             print(character_funtion)
+        
+        if character == "Steve":
+            character_funtion = Steve(skin,mouth,eyes,hair)
+            print(character_funtion)
 
     elif option2 == 3:
         if character == "Alex":
-            print(Alex_defalult())
+            print(Alex_default())
+    
+    elif option2 == 3:
+        if character == "Steve":
+            print(Steve_default())
+
+        
 
 

@@ -56,7 +56,7 @@ def Alex(skin,mouth,eyes,hair):
     app.run()
 
 
-def Alex_defalult():
+def Alex_default():
     app = Ursina()
 
     #Skin

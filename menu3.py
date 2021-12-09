@@ -8,7 +8,7 @@ from Cow import *
 from Sheep import *
 from Zombie import *
 from Creeper import *
-
+from Squid import *
 
 def menu3(character):
   
@@ -77,7 +77,11 @@ def menu3(character):
         elif character == "Creeper":
             character_funtion = Creeper(primary_color,secondary_color)
             print(character)
-                        
+
+        elif character == "Squid":
+            character_funtion = Squid(primary_color,secondary_color)
+            print(character)
+                            
     elif option2 == 2:
 
         if character == "Blaze":
@@ -100,5 +104,7 @@ def menu3(character):
         
         elif character == "Creeper":
             print(Creeper_default())
+        
+        elif character == "Squid":
+            print(Squid_default())
                    
-print(menu3("Creeper"))

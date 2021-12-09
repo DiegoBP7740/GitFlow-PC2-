@@ -16,7 +16,8 @@ print(f"[2] Alex       [8] Magma")
 print(f"[3] Creeper    [9] Blaze")
 print(f"[4] Zombie     [10] Sheep")
 print(f"[5] Skeleton   [11] Spider")
-print(f"[6] Cow")        
+print(f"[6] Cow        [12] Enderman") 
+print(f"               [13] Squid")       
 
 print("")
 option = int(input("Send your option: "))
@@ -76,9 +77,18 @@ elif option == 11:
     print("")
     print(menu3("Spider"))
 
+elif option == 12:
+    print(f"Opcion selected [Enderman] ")
+    print("")
+    print(menu3("Enderman"))
 
-else:
-    print("ERROR 404 :(")
+elif option == 13:
+    print(f"Opcion selected [Squid] ")
+    print("")
+    print(menu3("Squid"))
+
+
+
 
     
     
