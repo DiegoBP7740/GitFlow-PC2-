@@ -1,6 +1,6 @@
 from ursina import *
 
-def oveja_predeterm():
+def Sheep_default():
     app = Ursina()
 
     #fila 0
@@ -99,11 +99,7 @@ def oveja_predeterm():
     app.run()
     
 
-
-
-primary_color = color.black
-secondary_color = color.red
-def oveja(primary_color,secondary_color):
+def Sheep(primary_color,secondary_color):
     app = Ursina()
 
     #fila 0
@@ -201,5 +197,3 @@ def oveja(primary_color,secondary_color):
 
     app.run()    
 
-print(oveja(primary_color,secondary_color))
-#print(oveja(primary_color,secondary_color))
