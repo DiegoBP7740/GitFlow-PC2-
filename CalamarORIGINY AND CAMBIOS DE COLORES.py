@@ -2,7 +2,6 @@ from ursina import *
 def calamar_predeterm():
     app = Ursina()
 
-    camera.orthographic = True
 
 #fila 0
 
@@ -100,10 +99,8 @@ def calamar_predeterm():
 print(calamar_predeterm())
 
 # se le pide al usuario que ingrese su color de preferencia
-print("Por favor usuario, modifique el color del este calamar: :D")
 
-primary_color = color.orange
-secondary_color = color.yellow
+
 def calamar(primary_color, secondary_color):
     app = Ursina()
 
@@ -197,4 +194,3 @@ def calamar(primary_color, secondary_color):
     EditorCamera()
 
     app.run()
-print(calamar(primary_color, secondary_color))
