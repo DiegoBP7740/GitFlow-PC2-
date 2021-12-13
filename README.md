@@ -14,4 +14,4 @@
 - Parte 3 : Cambios de Color
 - Puedes elegir para cambiar de color la opcion de primary color y secundary color los cuales cambiar de color a partes de las skins de los mobs
 - Parte 4 : Visualización de Change Colors
-  Finalmente se vizualiza en la pantalla los colores que hemos escogidos en el mob seleccionado
+- Finalmente se vizualiza en la pantalla los colores que hemos escogidos en el mob seleccionado
