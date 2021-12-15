@@ -1,6 +1,5 @@
 from ursina import *
 from menu2 import *
-from menu2 import *
 from menu3 import *
 
 print("Skin Minecraft Creator")

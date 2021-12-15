@@ -2,7 +2,6 @@ from ursina import *
 from Alex import *
 from Steve import *
 from color_dict import *
-from Alex import *
 from UTEC import *
 
 def menu2(character):
@@ -117,6 +116,9 @@ def menu2(character):
             character_funtion = Steve(skin,mouth,eyes,hair)
             print(character_funtion)
 
+        else:
+            print(UTEC())
+
     elif option2 == 3:
 
         if character == "Steve":
@@ -124,6 +126,9 @@ def menu2(character):
 
         if character == "Alex":
             print(Alex_default())
+
+        else:
+            print(UTEC())
     
     else:
         print(UTEC())    

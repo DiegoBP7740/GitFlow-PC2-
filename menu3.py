@@ -1,6 +1,7 @@
 from ursina import *
 from Blaze import *
 from Skeleton import Skeleton, Skeleton_default
+from UTEC import UTEC
 from color_dict import *
 from Magma import *
 from Blaze import *
@@ -10,7 +11,7 @@ from Sheep import *
 from Zombie import *
 from Creeper import *
 from Squid import *
-
+from Pig import *
 def menu3(character):
   
 
@@ -85,6 +86,12 @@ def menu3(character):
         
         elif character == "Skeleton":
             character_funtion = Skeleton(primary_color,secondary_color)
+        
+        elif character == "Pig":
+            character_funtion = Pig(primary_color,secondary_color)
+        
+        else:
+            print(UTEC())
             
                             
     elif option2 == 2:
@@ -115,4 +122,10 @@ def menu3(character):
         
         elif character == "Skeleton":
             print(Skeleton_default())
+        
+        elif character == "Pig":
+            print(Pig_default())
+        
+        else:
+            print(UTEC())
                    
