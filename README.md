@@ -1,12 +1,12 @@
 # **Practica Calificada 2**
 
-- ## **Tema** : 
+- ## **Tema** 
   Ursina.
 - ## **Descripción** 
   
   Modificación de Skin de Minecraft a base de la libreria Ursina 
 
-- ## **Integrantes :**
+- ## **Integrantes **
   1. Adrian Auqui Perez
 
   2. Diego Bustamante Palomino
