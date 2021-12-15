@@ -118,13 +118,13 @@ def menu2(character):
             print(character_funtion)
 
     elif option2 == 3:
-        if character == "Alex":
-            print(Alex_default())
-    
-    elif option2 == 3:
+
         if character == "Steve":
             print(Steve_default())
 
+        if character == "Alex":
+            print(Alex_default())
+    
     else:
         print(UTEC())    
 

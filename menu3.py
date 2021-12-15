@@ -1,5 +1,6 @@
 from ursina import *
 from Blaze import *
+from Skeleton import Skeleton, Skeleton_default
 from color_dict import *
 from Magma import *
 from Blaze import *
@@ -81,6 +82,9 @@ def menu3(character):
         elif character == "Squid":
             character_funtion = Squid(primary_color,secondary_color)
             print(character)
+        
+        elif character == "Skeleton":
+            character_funtion = Skeleton(primary_color,secondary_color)
             
                             
     elif option2 == 2:
@@ -108,4 +112,7 @@ def menu3(character):
         
         elif character == "Squid":
             print(Squid_default())
+        
+        elif character == "Skeleton":
+            print(Skeleton_default())
                    

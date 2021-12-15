@@ -15,9 +15,9 @@ print(f"[1] Steve      [7] Pig")
 print(f"[2] Alex       [8] Magma")
 print(f"[3] Creeper    [9] Blaze")
 print(f"[4] Zombie     [10] Sheep")
-print(f"[5] Skeleton   [11] Spider")
-print(f"[6] Cow        [12] Enderman") 
-print(f"               [13] Squid")       
+print(f"[5] Skeleton   [11] Enderman")
+print(f"[6] Cow        [12] Squid") 
+      
 
 print("")
 option = int(input("Send your option: "))
@@ -73,22 +73,17 @@ elif option == 10:
     print(menu3("Sheep"))
 
 elif option == 11:
-    print(f"Opcion selected [Spider] ")
-    print("")
-    print(menu3("Spider"))
-
-elif option == 12:
     print(f"Opcion selected [Enderman] ")
     print("")
     print(menu3("Enderman"))
 
-elif option == 13:
+elif option == 12:
     print(f"Opcion selected [Squid] ")
     print("")
     print(menu3("Squid"))
 
 else:
-    print(menu2("UTEC"))
+    print(UTEC())
 
 
 
