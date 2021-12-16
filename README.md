@@ -37,9 +37,18 @@
   Cada personaje tiene dos funciones que ayudan a personalizar los colores o para poner los colores predeterminados.
   - ### Steve y Alex 
     Estos personajes tienen la funcion **"personaje"_default( )** y **"personaje"(skin,mouth,eyes,hair)**
+    - El usuario puede elegir 2 opciones : 
+         - #### Colores por defecto predefinidos
+         - #### Colores personalizados 
+  - ### Imagen con colores personalizados ("Alex") 
     <img src="Imagen6.JPG">
   - ### Mobs 
     Estos personajes tienen la funcion **"personaje"_default( )** y **"personaje"(primary_color,secundary_color)**
+    - El usuario puede elegir 2 opciones : 
+         - #### Colores por defecto predefinidos
+         - #### Colores personalizados 
+  - ### Imagen con colores predefinidos  ("Creeper")
+    
 
     <img src="Imagen5.JPG">
 
